@@ -1,0 +1,87 @@
+body{
+    background: #333;
+    color: #ffffff;
+}
+/* start nav section */
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.7;    
+}
+/* end nav section */
+
+/*  start home-section */
+#home-section{
+    background: url("../img/bg.jpeg") no-repeat center top;
+    min-height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home-overlay{
+    background: rgba(0, 0, 0, 0.7);
+}
+.inner-home{
+    min-height: 700px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.icon .fa{
+    background: #ffffff;
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.card-form{
+    opacity: 0.8;
+}
+.card-form input[type="submit"]{
+    border-radius: 3px;
+}
+@media (max-width:768px){
+    #home-section h1{
+        font-size: 36px;
+    }
+}
+/*end home-section */
+
+/* start explore-section */
+#explore{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#explore2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#icon{
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+/* end explore section */
+
+/* start create section */
+#create{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#create2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#create-icon{
+    background: #ffffff;
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+/* end create section */
+
+#share{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#share2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
